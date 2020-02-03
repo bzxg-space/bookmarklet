@@ -1,0 +1,116 @@
+* {
+	/*清除内外边距*/
+	padding: 0px;
+	margin: 0px;
+	/* 设置字体 */
+	font-family: "微软雅黑";
+	/* 字间距 */
+	letter-spacing: 0.1em;
+}
+
+h2,
+table {
+	/*字色*/
+	color: #595959;
+}
+
+h2 {
+	/* 居中 */
+	text-align: center;
+	/* 外上边距 */
+	margin: 20px;
+	/*改字样式*/
+	font-weight: normal;
+	letter-spacing: 0.25em;
+}
+
+table {
+	/* 变单线 */
+	border-collapse: collapse;
+	width: 80%;
+	max-width: 800px;
+	min-width: 500px;
+	/* 内容居中 */
+	text-align: center;
+	margin: 5px auto;
+}
+
+table tr td {
+	width: 50%;
+	height: 65px;
+}
+
+table tr td span {
+	font-size: 13.5px;
+	color: #c00000;
+}
+
+table tr td span a {
+	color: blue;
+}
+
+table tr td>a {
+	/* 去掉下划线 */
+	text-decoration: none;
+	display: block;
+	/* 悬停时移动 */
+	cursor: move;
+	/* 边框圆角 */
+	border-radius: 30px;
+	/* 背景颜色 */
+	background-color: #00A4FF;
+	/* 字体颜色 */
+	color: white;
+	/* 居中 */
+	margin: 0 auto;
+	/* 宽高 */
+	width: 200px;
+	height: 38px;
+	/* 行高 */
+	line-height: 38px;
+	/*字加粗*/
+	font-weight: bold;
+	/*字号*/
+	font-size: 14.5px;
+}
+
+table tr td>a:hover {
+	background-color: rgba(0, 164, 255, 0.6);
+}
+
+footer {
+	height: 35px;
+	color: darkgray;
+	line-height: 35px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+footer a {
+	color: gray;
+	text-decoration: none;
+}
+
+footer a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* 返回顶部 by https://www.jianshu.com/p/22e184a74358 */
+.top_e {
+	position: fixed;
+	right: 10px;
+	bottom: 40px;
+	background: rgba(204, 200, 255, 0.6);
+	border-radius: 15px;
+	cursor: pointer;
+	display: none;
+	width: 60px;
+	height: 60px;
+}
+
+.top_e:hover {
+	background: #1296DB;
+	color: white;
+}
